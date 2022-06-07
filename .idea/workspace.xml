@@ -9,16 +9,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b38c38d1-c79e-4afb-ac63-2a69e2044d30" name="变更" comment="添加了springSecurity的初始框架">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiecode/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiecode/service/UserAuthService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/template/login.html" afterDir="false" />
+    <list default="true" id="b38c38d1-c79e-4afb-ac63-2a69e2044d30" name="变更" comment="添加了用户的登录与登出功能。">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_springsecurity5_3_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiecode/entity/AuthUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/template/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/BookManager_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/BookManager_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookManager.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BookManager.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiecode/config/MvcConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiecode/config/MvcConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/xiecode/config/RootConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiecode/config/RootConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/xiecode/config/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiecode/config/SecurityConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiecode/controller/PageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiecode/controller/PageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/template/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/template/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiecode/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiecode/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiecode/service/UserAuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiecode/service/UserAuthService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/template/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/template/login.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,7 +207,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654519264038</updated>
-      <workItem from="1654519265337" duration="20829000" />
+      <workItem from="1654519265337" duration="29566000" />
     </task>
     <task id="LOCAL-00001" summary="添加了springSecurity的初始框架">
       <created>1654564654609</created>
@@ -212,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654564654610</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="添加了用户的登录与登出功能。">
+      <created>1654589463280</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1654589463280</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,6 +242,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="添加了springSecurity的初始框架" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加了springSecurity的初始框架" />
+    <MESSAGE value="添加了用户的登录与登出功能。" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加了用户的登录与登出功能。" />
   </component>
 </project>

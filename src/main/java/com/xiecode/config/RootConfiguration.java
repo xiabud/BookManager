@@ -3,13 +3,11 @@ package com.xiecode.config;
 import com.zaxxer.hikari.HikariDataSource;
 import org.mybatis.spring.SqlSessionFactoryBean;
 import org.mybatis.spring.annotation.MapperScan;
-import org.mybatis.spring.annotation.MapperScans;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.ComponentScans;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.stereotype.Service;
 
 import javax.sql.DataSource;
 

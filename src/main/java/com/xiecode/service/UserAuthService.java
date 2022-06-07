@@ -1,5 +1,6 @@
 package com.xiecode.service;
 
+import com.xiecode.entity.AuthUser;
 import com.xiecode.mapper.UserMapper;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -17,14 +18,14 @@ public class UserAuthService implements UserDetailsService {
 
     @Override
     public UserDetails loadUserByUsername(String s) throws UsernameNotFoundException {
-        String password = userMapper.getPassWordByUserName(s); //直接从数据库中获取密码
-        if (password == null) {
+        AuthUser authUser = userMapper.getPassWordByUserName(s); //直接从数据库中获取密码
+        if (authUser == null) {
             throw new UsernameNotFoundException("登录失败，用户名或密码错误！");
         }
         return User //这里需要返回UserDetails，SpringSecurity会根据给定的信息进行比对
-                .withUsername(s)
-                .password(password)
-                .roles("user")
+                .withUsername(authUser.getUsername())
+                .password(authUser.getPassword())
+                .roles(authUser.getRole())
                 .build();
     }
 }
